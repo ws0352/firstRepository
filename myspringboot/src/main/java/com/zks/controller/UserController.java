@@ -14,7 +14,7 @@ import javax.jws.soap.SOAPBinding;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    @GetMapping("/login")
+    @PostMapping("/login")
     @ResponseBody
     public MyResult login(@RequestBody User user){
         MyResult result = new MyResult();
