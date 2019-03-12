@@ -1,5 +1,5 @@
 HELP.md
-/target/
+
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -24,3 +24,4 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
+.DS_Store
