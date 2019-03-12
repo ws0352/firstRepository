@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-    @PostMapping("/login")
+    @GetMapping("/login")
     @ResponseBody
-    public MyResult login(@RequestBody User user){
+    public MyResult login(){
         MyResult result = new MyResult();
         result.setCode(0);
         result.setMsg("登录成功！");
